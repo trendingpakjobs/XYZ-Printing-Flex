@@ -200,3 +200,71 @@ body {
     line-height: 1.5;
   }
 }
+
+
+/* ... previous styles remain ... */
+
+/* STATS SECTION */
+.stats {
+  background: #1e293b;
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.stat h3 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+/* CTA SECTION */
+.cta {
+  background: #22c55e;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.cta a.btn {
+  background: white;
+  color: #22c55e;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+/* FOOTER */
+.footer {
+  background: #0f172a;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.footer .socials {
+  margin: 10px 0;
+}
+
+.footer .socials a {
+  margin: 0 8px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .stats-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
