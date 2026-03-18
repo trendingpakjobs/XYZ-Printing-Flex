@@ -268,3 +268,23 @@ body {
     gap: 30px;
   }
 }
+
+
+ /* ==========================
+   Separate Sections Spacing
+   ========================== */
+
+.about {
+  padding-top: 60px; /* More space before about */
+  padding-bottom: 60px; /* More space after about */
+}
+
+.stats {
+  padding-top: 80px; /* Clear space before stats */
+  padding-bottom: 80px; /* Clear space after stats */
+}
+
+/* Also add spacing between any two sections */
+section {
+  margin-bottom: 40px;
+}
